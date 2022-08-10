@@ -1,11 +1,12 @@
 :root {
   scroll-behavior: smooth;
+  --primary-font-family: 'Inconsolata', monospace;
 }
 
 .body {
   background-color: #20232a;
   color: #fff;
-  font-family: monospace;
+  font-family: var(--primary-font-family);
   margin: 0;
 }
 
@@ -327,6 +328,7 @@
 }
 
 .card-exp__role {
+  font-weight: 300;
   font-size: 0.875rem;
   text-shadow: 0 0 0.125rem #61dafb;
   margin: 0;
@@ -351,7 +353,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 0.75rem;
-  font-family: monospace;
+  font-family: var(--primary-font-family);
   text-decoration: none;
   padding: 0.5em 2em;
   box-sizing: border-box;
