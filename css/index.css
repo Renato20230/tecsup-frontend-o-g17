@@ -153,25 +153,6 @@
   display: none;
 }
 
-.i-hero__info-link {
-  background-color: #61dafb;
-  border: none;
-  border-radius: 0.5rem;
-  color: #000;
-  font-weight: 700;
-  font-size: 0.75rem;
-  font-family: monospace;
-  text-decoration: none;
-  padding: 0.5em 2em;
-  cursor: pointer;
-  transition: filter 0.25s, box-shadow 0.25s;
-}
-
-.i-hero__info-link:hover {
-  box-shadow: 0 0 0.25rem 0 #61dafb;
-  filter: brightness(112.5%);
-}
-
 .i-hero__img-container {
   position: relative;
   width: 256px;
