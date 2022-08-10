@@ -273,3 +273,13 @@
     height: 80px;
   }
 }
+
+.wave {
+  position: relative;
+  margin: 0;
+}
+
+.wave__wave {
+  display: block;
+  fill: #282c34;
+}
