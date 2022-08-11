@@ -271,8 +271,11 @@
 }
 
 .section {
-  background-color: #282c34;
   padding: 1.5rem 0;
+}
+
+.section--secondary {
+  background-color: #282c34;
 }
 
 .container {
