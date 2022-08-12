@@ -3,7 +3,7 @@
 }
 
 .section--secondary {
-  background-color: #282c34;
+  background-color: var(--secondary-theme-color);
 }
 
 .section--headed {

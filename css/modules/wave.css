@@ -10,5 +10,5 @@
 
 .wave__wave {
   display: block;
-  fill: #282c34;
+  fill: var(--secondary-theme-color);
 }
