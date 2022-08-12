@@ -41,7 +41,7 @@
   bottom: -0.125rem;
   width: 0;
   height: 0.0625rem;
-  background-color: gold;
+  background-color: var(--secondary-highlight-color);
   transition: width 0.25s ease-in-out;
 }
 
