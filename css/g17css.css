@@ -2,52 +2,7 @@
 @import './modules/menu.css';
 @import './modules/section.css';
 @import './modules/card.css';
-
-.button {
-  display: inline-block;
-  background-color: #20232a;
-  border: 0.125rem solid #20232a;
-  border-radius: 0.5rem;
-  color: #fff;
-  font-weight: 700;
-  font-size: 0.75rem;
-  font-family: var(--primary-font-family);
-  text-decoration: none;
-  padding: 0.5em 2em;
-  box-sizing: border-box;
-  cursor: pointer;
-  transition: filter 0.25s, box-shadow 0.25s;
-}
-
-.button:hover {
-  box-shadow: 0 0 0.25rem 0 #20232a;
-  filter: brightness(112.5%);
-}
-
-.button--primary {
-  background-color: #61dafb;
-  border: 0.125rem solid #61dafb;
-  color: #000;
-}
-
-.button--primary:hover {
-  box-shadow: 0 0 0.25rem 0 #61dafb;
-}
-
-.button--secondary {
-  background-color: gold;
-  border: 0.125rem solid gold;
-  color: #000;
-}
-
-.button--secondary:hover {
-  box-shadow: 0 0 0.25rem 0 gold;
-}
-
-.button--outline {
-  background-color: transparent;
-  color: #000;
-}
+@import './modules/button.css';
 
 .form {
   display: flex;
