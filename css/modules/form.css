@@ -7,7 +7,7 @@
 .form__input {
   background-color: transparent;
   border: none;
-  box-shadow: 0 0 0.125rem 0 #61dafb;
+  box-shadow: 0 0 0.125rem 0 var(--primary-highlight-color);
   border-radius: 0.25rem;
   color: var(--primary-text-color);
   font-size: 0.875rem;

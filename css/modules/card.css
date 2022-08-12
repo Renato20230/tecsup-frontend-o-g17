@@ -41,7 +41,7 @@
 }
 
 .card__subtitle--exp {
-  text-shadow: 0 0 0.125rem #61dafb;
+  text-shadow: 0 0 0.125rem var(--primary-highlight-color);
   font-weight: 300;
 }
 

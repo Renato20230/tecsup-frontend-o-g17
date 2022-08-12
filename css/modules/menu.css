@@ -31,7 +31,7 @@
 
 .menu__link:hover,
 .menu__link--active {
-  color: #61dafb;
+  color: var(--primary-highlight-color);
 }
 
 .menu__link::before {
