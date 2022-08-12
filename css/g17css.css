@@ -1,30 +1,4 @@
-.header {
-  position: fixed;
-  z-index: 25;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #20232a80;
-  box-shadow: 0 0 0.0625rem 0.0625rem #fff8;
-}
-
-.header-nav {
-  padding: 1rem 0;
-}
-
-.header-nav__link-logo {
-  display: block;
-  width: 108px;
-  height: 32px;
-}
-
-.menu-checkbox {
-  display: none;
-}
-
-.menu-checkbox:checked+.menu--hamburger {
-  left: 0;
-}
+@import './modules/headed.css';
 
 .menu {
   display: flex;
@@ -88,6 +62,18 @@
   transform: scale(1.125);
 }
 
+.menu-icon {
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+.menu-checkbox {
+  display: none;
+}
+
+.menu-checkbox:checked+.menu--hamburger {
+  left: 0;
+}
 
 @media (min-width: 768px) {
   .menu-icon {
@@ -101,11 +87,6 @@
     width: auto;
     background-image: none;
   }
-}
-
-.menu-icon {
-  color: #fff;
-  font-size: 1.75rem;
 }
 
 .section {
@@ -151,28 +132,6 @@
   flex-direction: column;
   gap: 1rem;
 }
-
-.section__footer-title {
-  position: relative;
-  font-size: 0.75rem;
-  margin: 0;
-}
-
-.section__footer-title::before {
-  content: '';
-  position: absolute;
-  top: -0.5rem;
-  left: 0;
-  background-color: #fff8;
-  width: 100%;
-  height: 0.0625rem;
-}
-
-.section__footer-link {
-  color: #61dafb;
-  text-decoration: none;
-}
-
 
 .card-exp {
   background-color: #282c34;
