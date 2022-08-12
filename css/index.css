@@ -10,9 +10,3 @@
   font-family: var(--primary-font-family);
   margin: 0;
 }
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
