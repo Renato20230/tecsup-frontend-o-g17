@@ -3,6 +3,7 @@
 @import './modules/section.css';
 @import './modules/card.css';
 @import './modules/button.css';
+@import './modules/hero.css';
 
 .form {
   display: flex;
