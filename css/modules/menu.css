@@ -23,7 +23,7 @@
 
 .menu__link {
   position: relative;
-  color: #fff;
+  color: var(--primary-text-color);
   font-weight: 700;
   text-decoration: none;
   transition: color 0.25s;
@@ -61,7 +61,7 @@
 }
 
 .menu-icon {
-  color: #fff;
+  color: var(--primary-text-color);
   font-size: 1.75rem;
 }
 

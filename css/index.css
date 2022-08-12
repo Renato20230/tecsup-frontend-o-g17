@@ -2,12 +2,13 @@
   scroll-behavior: smooth;
   --primary-theme-color: #20232a;
   --secondary-theme-color: #282c34;
+  --primary-text-color: #fff;
   --primary-font-family: 'Inconsolata', monospace;
 }
 
 .body {
   background-color: var(--primary-theme-color);
-  color: #fff;
+  color: var(--primary-text-color);
   font-family: var(--primary-font-family);
   margin: 0;
 }

@@ -9,7 +9,7 @@
   border: none;
   box-shadow: 0 0 0.125rem 0 #61dafb;
   border-radius: 0.25rem;
-  color: #fff;
+  color: var(--primary-text-color);
   font-size: 0.875rem;
   padding: 0.5em;
   transition: box-shadow 0.25s;
