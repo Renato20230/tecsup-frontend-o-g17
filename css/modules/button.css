@@ -23,7 +23,7 @@
 .button--primary {
   background-color: var(--primary-button-color);
   border: 0.125rem solid var(--primary-button-color);
-  color: #000;
+  color: var(--reverse-primary-text-color);
 }
 
 .button--primary:hover {
@@ -33,7 +33,7 @@
 .button--secondary {
   background-color: var(--secondary-button-color);
   border: 0.125rem solid var(--secondary-button-color);
-  color: #000;
+  color: var(--reverse-primary-text-color);
 }
 
 .button--secondary:hover {
@@ -42,7 +42,7 @@
 
 .button--outline {
   background-color: transparent;
-  color: #000;
+  color: var(--reverse-primary-text-color);
 }
 
 @media (min-width: 768px) {
