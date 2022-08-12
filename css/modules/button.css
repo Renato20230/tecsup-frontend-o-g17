@@ -31,13 +31,13 @@
 }
 
 .button--secondary {
-  background-color: gold;
-  border: 0.125rem solid gold;
+  background-color: var(--secondary-button-color);
+  border: 0.125rem solid var(--secondary-button-color);
   color: #000;
 }
 
 .button--secondary:hover {
-  box-shadow: 0 0 0.25rem 0 gold;
+  box-shadow: 0 0 0.25rem 0 var(--secondary-button-color);
 }
 
 .button--outline {
