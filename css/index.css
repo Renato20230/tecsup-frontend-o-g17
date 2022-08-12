@@ -1,10 +1,11 @@
 :root {
   scroll-behavior: smooth;
+  --primary-theme-color: #20232a;
   --primary-font-family: 'Inconsolata', monospace;
 }
 
 .body {
-  background-color: #20232a;
+  background-color: var(--primary-theme-color);
   color: #fff;
   font-family: var(--primary-font-family);
   margin: 0;

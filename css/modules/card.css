@@ -19,7 +19,7 @@
 }
 
 .card--exp:hover {
-  background-color: #20232a;
+  background-color: var(--primary-theme-color);
 }
 
 .card__title {

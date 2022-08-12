@@ -26,7 +26,7 @@
   left: 0;
   width: 100%;
   height: 2rem;
-  background-image: linear-gradient(transparent, #20232a);
+  background-image: linear-gradient(transparent, var(--primary-theme-color));
 }
 
 .hero__img-container {

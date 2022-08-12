@@ -1,8 +1,8 @@
 
 .button {
   display: inline-block;
-  background-color: #20232a;
-  border: 0.125rem solid #20232a;
+  background-color: var(var(--primary-theme-color));
+  border: 0.125rem solid var(var(--primary-theme-color));
   border-radius: 0.5rem;
   color: #fff;
   font-weight: 700;
@@ -16,7 +16,7 @@
 }
 
 .button:hover {
-  box-shadow: 0 0 0.25rem 0 #20232a;
+  box-shadow: 0 0 0.25rem 0 var(var(--primary-theme-color));
   filter: brightness(112.5%);
 }
 
