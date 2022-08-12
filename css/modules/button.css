@@ -44,3 +44,9 @@
   background-color: transparent;
   color: #000;
 }
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 1rem;
+  }
+}
