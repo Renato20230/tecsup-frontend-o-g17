@@ -12,7 +12,7 @@
   color: var(--primary-text-color);
   font-size: 0.875rem;
   padding: 0.5em;
-  transition: all 0.25s;
+  transition: box-shadow 0.25s, outline 0.25s;
 }
 
 .form__input:focus:invalid {
