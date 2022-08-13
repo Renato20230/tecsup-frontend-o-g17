@@ -14,6 +14,8 @@
   --secondary-button-color: gold;
   --primary-invalid-color: crimson;
   --primary-font-family: 'Inconsolata', monospace;
+  --padding-section: 1.5rem 0;
+  --padding-container: 0 1rem;
 }
 
 .body {
@@ -21,4 +23,11 @@
   color: var(--primary-text-color);
   font-family: var(--primary-font-family);
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --padding-section: 2rem 0;
+    --padding-container: 0 0.75rem;
+  }
 }

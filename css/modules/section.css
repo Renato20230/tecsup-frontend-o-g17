@@ -1,5 +1,5 @@
 .section {
-  padding: 1.5rem 0;
+  padding: var(--padding-section);
 }
 
 .section--secondary {
@@ -13,7 +13,7 @@
 .container {
   max-width: 640px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: var(--padding-container);
 }
 
 .container--headed {
@@ -50,10 +50,6 @@
 }
 
 @media (min-width: 768px) {
-  .section {
-    padding: 2rem 0;
-  }
-
   .container {
     max-width: 1024px;
   }
