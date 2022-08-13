@@ -7,7 +7,7 @@
 }
 
 .section--headed {
-  box-shadow: 0 0 0.0625rem 0.0625rem #fff8;
+  box-shadow: 0 0 0.0625rem 0.0625rem var(--reverse-primary-shadow-color);
 }
 
 .container {
