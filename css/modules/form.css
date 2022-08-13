@@ -22,7 +22,7 @@
 }
 
 .form__input::placeholder {
-  color: #f5f5f5;
+  color: var(--secondary-text-color);
 }
 
 @media (min-width: 768px) {
