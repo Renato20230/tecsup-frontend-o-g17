@@ -49,17 +49,6 @@
   display: none;
 }
 
-.card__list {
-  margin: 0;
-  padding: 0;
-  padding-left: 2rem;
-  list-style: square;
-}
-
-.card__item {
-  font-size: 0.875rem;
-}
-
 @media (min-width: 768px) {
   .card--hero {
     gap: 1rem;
